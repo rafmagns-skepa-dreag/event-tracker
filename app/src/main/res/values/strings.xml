@@ -2,9 +2,11 @@
     <string name="app_name">EventTracker</string>
     <string name="edit_message">Enter a message</string>
     <string name="button_send">Send</string>
+    <string name="cancel">Cancel</string>
     <string name="event_name">Event Name</string>
     <string name="new_event_save">Save</string>
-    <string name="hint_event">Event...</string>
+    <string name="hint_event">Event…</string>
     <string name="button_save">Save</string>
     <string name="empty_not_saved">Event not saved because it is empty.</string>
+    <string name="dialog_extra_data">Extra event data</string>
 </resources>

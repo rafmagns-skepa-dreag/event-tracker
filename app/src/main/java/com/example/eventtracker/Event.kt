@@ -5,6 +5,4 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 @Entity(tableName = "event")
-class Event(
-    @PrimaryKey @ColumnInfo(name="event") val event: String
-)
+class Event(@PrimaryKey @ColumnInfo(name = "event") val event: String)

@@ -1,8 +1,8 @@
 package com.example.eventtracker
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.TextView
+import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
 
 class DisplayMessageActivity : AppCompatActivity() {
 
@@ -12,7 +12,8 @@ class DisplayMessageActivity : AppCompatActivity() {
 
         val message = intent.getStringExtra(EXTRA_MESSAGE)
 
-        findViewById<TextView>(R.id.textView2).apply {
+        val eventButton = findViewById<Button>(R.id.event_button)
+        eventButton.apply {
             text = message
         }
     }
